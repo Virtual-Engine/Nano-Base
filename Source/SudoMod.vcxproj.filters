@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{2a12d025-c2ec-49af-84af-2c26d0618e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Features">
+      <UniqueIdentifier>{6b5aef0c-4518-4f15-a4c9-7e45c73bcb28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Menu UI">
+      <UniqueIdentifier>{762fb55a-39f2-4db2-9b02-4df91f80e7e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Main">
+      <UniqueIdentifier>{c839ec0f-6d01-42bc-959c-21837407b097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Backend\Native Invoker">
+      <UniqueIdentifier>{3ecc975b-0190-413b-a53f-3cd660486180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\Spoof Assembly">
+      <UniqueIdentifier>{03ba5816-746f-467b-84d5-337d0e4e231f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\Hooking">
+      <UniqueIdentifier>{9cf435a8-5cc2-48fc-a9d5-be5468bedc98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\Functions">
+      <UniqueIdentifier>{14e9b02d-05f1-44d5-890d-b27aed793c8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\Log Console">
+      <UniqueIdentifier>{e33c51fb-9e9a-4230-86d6-80c1a66389de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\Memory">
+      <UniqueIdentifier>{91ebe17b-f0cb-42d2-acb7-26af5adfd22e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Features.h">
+      <Filter>Menu\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Menu\Menu UI</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Menu\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Retrun_spoof.hpp">
+      <Filter>Backend\Spoof Assembly</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking.h">
+      <Filter>Backend\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossMapping.h">
+      <Filter>Backend\Native Invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="nativeCaller.h">
+      <Filter>Backend\Native Invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="NativeInvoker.h">
+      <Filter>Backend\Native Invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="natives.h">
+      <Filter>Backend\Native Invoker</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Backend\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>Backend\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Backend\Log Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Backend\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHook.h">
+      <Filter>Backend\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>Backend\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Features.cpp">
+      <Filter>Menu\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Menu\Menu UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Menu\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CrossMapping.cpp">
+      <Filter>Backend\Native Invoker</Filter>
+    </ClCompile>
+    <ClCompile Include="NativeInvoker.cpp">
+      <Filter>Backend\Native Invoker</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking.cpp">
+      <Filter>Backend\Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHook.cpp">
+      <Filter>Backend\Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Backend\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Backend\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Backend\Log Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Backend\Memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Return_spoof.asm">
+      <Filter>Backend\Spoof Assembly</Filter>
+    </None>
+  </ItemGroup>
+</Project>
